@@ -3,6 +3,13 @@ const inputColorContainer = document.getElementById('inputColor');
 const alteredColorContainer = document.getElementById('alteredColor');
 const percentageText = document.getElementById('percentageText');
 const percentageBar = document.getElementById('percentageBar');
+const toggleBtnContainer = document.querySelector('.toggle-container');
+const toggleBtnBall = document.querySelector('.btn');
+
+toggleBtnContainer.addEventListener('click', ()=>{
+
+toggleBtnBall.classList.add('toggled')
+});
 
 // check if the user input is vailed 
 const isVaildHex = (hex) => {
