@@ -35,3 +35,31 @@ input[type=range]{
     height: 80px;
     background-color: #c6d4ac ;
 }
+
+/* toggle btn area*/
+
+.toggle-container{
+    display: flex;
+}
+
+.btn-container{
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    margin: 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.btn{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 25px;
+    position: relative;
+    top: 2px;
+    left: 8px;
+}
+
+.toggled{
+    transform: translateX(60px);
+}
